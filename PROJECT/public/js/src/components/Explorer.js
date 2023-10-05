@@ -10,7 +10,7 @@ export default {
 
   template: `
     <section id="file-explorer" class="text-white py-3">
-      <small class="px-2">File Explorer</small>
+      <small class="px-2">Add/Upload Files</small>
       <i class="las la-file-medical float-end me-2" @click="newFile"></i>
 
       <input type="file" @change="uploadFile" accept="text/plain|.c|.cpp|.java|.html|.py|.js" multiple>

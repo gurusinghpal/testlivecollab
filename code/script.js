@@ -168,10 +168,10 @@ function initMap() {
                     position: { lat: item.Latitude, lng: item.Longitude },
                     map: map,
                     title: item.Location_name,
-                    icon: {
-                        url: '/cctv.png', // Replace with the actual path
-                        scaledSize: new google.maps.Size(30, 30) // Set the desired width and height
-                    }, // Replace with the actual path
+                    // icon: {
+                    //     url: '/cctv.png', // Replace with the actual path
+                    //     scaledSize: new google.maps.Size(30, 30) // Set the desired width and height
+                    // }, // Replace with the actual path
                     ownerInfo: item  // Associate owner information with each marker
                 });
 
